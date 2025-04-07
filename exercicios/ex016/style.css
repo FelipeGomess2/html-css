@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #feb876 0%, #b38152 80%, #916842 100%);
+    position: relative;
+}
+
+h1 {
+    font-family: "Noto Serif", serif, Sans-Serif;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+
+p {
+    font-family: "Noto Serif", serif, Arial, Sans-Serif;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;   
+}
+
+main {
+    background-color: #d9924f;
+    box-shadow: 5px 5px 15px;
+    border-radius: 10px;
+    width: 600px;
+    margin: 0 auto; /* wCorrigido para centralizar o 'main' horizontalmente */
+    height: auto;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+}
