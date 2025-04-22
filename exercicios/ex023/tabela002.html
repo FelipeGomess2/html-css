@@ -12,12 +12,19 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         thead, tfoot {
             background-color: gray;
             color: white;
 
         }
+        thead > tr > th {
+            position: sticky;
+            background-color: gray;
+            top: -1px;
+        }
+
         tbody > tr:nth-child(odd) {
 
             background-color: lightgray;
@@ -108,6 +115,21 @@
             <tr>
                 <td>Tocantins</td>
                 <td class="num">1 511 460</td>
+            </tr>
+            <tr>
+                <td>Rio Branco</td>
+                <td class="num">830 018</td>
+            </tr>
+            <tr>
+                <td>Maceió</td>
+                <td>3 127 683</td>
+            </tr>
+            <tr>
+                <td>Macapá</td>
+                <td>733 759</td>
+            </tr>
+            <tr>
+
             </tr>
         </tbody>
         <tfoot>
